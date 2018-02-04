@@ -1,0 +1,34 @@
+{
+    "projects":
+    [
+        {
+            "name":"Simple Start",
+            "docslocation":"https://simplestart/docs",
+            "services": [ 
+                {
+                    "name": "API",
+                    "instances":["srv1", "srv2", "srv3"]
+                },
+                {
+                    "name": "Web Page"
+                }
+
+            ]
+        },
+        {
+            "name":"Simple Start 2",
+            "docslocation":"https://simplestart/docs 2",
+            "services": [ 
+                {
+                    "name": "API",
+                    "instances":["srv44", "srv23", "srv223"]
+                },
+                {
+                    "name": "Files in the office"
+                }
+
+            ]
+        }
+    ] 
+}
+
